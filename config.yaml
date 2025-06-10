@@ -1,0 +1,33 @@
+server:
+  port: 8080  # 服务器端口
+
+db:
+#   write_db:  # 写入数据库配置
+#     type: mysql  # 数据库类型，如mysql、postgresql等
+#     host: localhost
+#     port: 3306
+#     username: root
+#     password: password
+#     database: write_db
+#
+#   read_db:  # 读取数据库配置
+#     type: mysql
+#     host: localhost
+#     port: 3306
+#     username: root
+#     password: password
+#     database: read_db
+
+  db:  # 数据库配置
+    type: mysql
+    host: localhost
+    port: 3306
+    username: root
+    password: password
+    database: main_db
+
+logger:
+  level: debug  # 日志级别
+  format: json  # 日志格式
+  outfile: ./logs/app.log  # 输出文件路径
+  chuck_size: 100  # 日志切割大小
