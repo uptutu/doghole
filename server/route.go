@@ -69,9 +69,9 @@ func RegisterRoutes(app *fiber.App) {
 		}),
 		CustomLogger(), // 自定义日志中间件
 		cors.New(cors.Config{ // CORS中间件
-			AllowOrigins:     "*",
-			AllowMethods:     "GET,POST,PUT,DELETE,OPTIONS",
-			AllowHeaders:     "Origin, Content-Type, Accept, Authorization",
+			AllowOrigins:     []string{"*"},
+			AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+			AllowHeaders:     []string{"Origin", "Content-Type", "Accept", "Authorization"},
 			AllowCredentials: true,
 			MaxAge:           300,
 		}),

@@ -56,12 +56,9 @@ func NewServer(options ...func(*Server)) *Server {
 
 	// 配置Fiber应用
 	fiberConfig := fiber.Config{
-		ReadTimeout:          s.config.ReadTimeout,
-		WriteTimeout:         s.config.WriteTimeout,
-		IdleTimeout:          s.config.IdleTimeout,
-		CompressedFileSuffix: ".gz",
-		EnableCompression:    s.config.EnableCompression,
-		Prefork:              s.config.EnablePrefork,
+		ReadTimeout:  s.config.ReadTimeout,
+		WriteTimeout: s.config.WriteTimeout,
+		IdleTimeout:  s.config.IdleTimeout,
 	}
 
 	s.app = fiber.New(fiberConfig)

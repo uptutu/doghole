@@ -4,10 +4,8 @@ import (
 	"io"
 	"os"
 	"strings"
-	"time"
 
 	"github.com/natefinch/lumberjack"
-	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

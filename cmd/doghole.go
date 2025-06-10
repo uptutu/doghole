@@ -18,12 +18,3 @@ func Execute() error {
 	}
 	return nil
 }
-
-func init() {
-	// Here you can define your flags and configuration settings.
-	// For example, you can add flags for database connection, server port, etc.
-	_config = serverCmd.Flags().StringP("config", "c", "", "Path to the configuration file")
-	serverCmd.MarkFlagRequired("config") // Make the config flag required
-
-	rootCmd.AddCommand(serverCmd) // Add the server command to the root command
-}

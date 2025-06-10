@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"os"
-	"time"
 
 	"doghole/config"
 	"doghole/domain/conn"
@@ -124,7 +123,7 @@ var serverCmd = &cobra.Command{
 
 func init() {
 	// 定义命令行标志
-	_config = serverCmd.Flags().StringP("config", "c", "", "配置文件路径")
+	_config = serverCmd.Flags().StringP("config", "c", "config.yaml", "配置文件路径")
 	serverCmd.MarkFlagRequired("config") // 将config标志设为必需
 
 	// 添加其他可选标志
