@@ -2,10 +2,10 @@
 
 My App Server Skeleton. Build with fiber\ent\zap.
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/your_username/doghole)](https://goreportcard.com/report/github.com/your_username/doghole)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/your_username/doghole)](https://golang.org/)
-[![License](https://img.shields.io/github/license/your_username/doghole)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your_username/doghole/go.yml?branch=main)](https://github.com/your_username/doghole/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/uptutu/doghole)](https://goreportcard.com/report/github.com/uptutu/doghole)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/uptutu/doghole)](https://golang.org/)
+[![License](https://img.shields.io/github/license/uptutu/doghole)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/uptutu/doghole/go.yml?branch=main)](https://github.com/uptutu/doghole/actions)
 
 **Doghole** 是一个使用 Go 语言编写的现代化、高性能的 Web 应用程序骨架。它集成了以下优秀的技术栈：
 
