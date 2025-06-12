@@ -135,7 +135,3 @@ make build
 ## 📄 许可证
 
 本项目采用 [MIT 许可证](LICENSE)。
-
----
-
-_请将 `your_username/doghole` 替换为您的实际 GitHub 用户名和仓库名称。您可能还需要创建一个 `LICENSE` 文件，并根据需要调整徽章链接。_
